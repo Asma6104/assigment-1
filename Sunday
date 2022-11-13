@@ -1,0 +1,61 @@
+import java.sql.SQLOutput;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello world!");
+
+        //Exercise Number#1
+        System.out.println("تمرين رقم 1");
+        System.out.println("Enter yor name ");
+        String name = "Asma";
+        System.out.println("your name is: " + name);
+
+        //Exercise Number#2
+        System.out.println("تمرين رقم 2");
+        System.out.println("Enter yor age ");
+        int age = 20;
+        System.out.println("your age is: " + age);
+//Exercise Number#3
+        System.out.println("تمرين رقم 3");
+        System.out.println("الجمع");
+       
+        System.out.println("add two number and divide to two "+   Additton(15,5)); //call method 1
+//Exercise Number#4
+        System.out.println("تمرين رقم 4");
+        int x= 2;
+        int y= 4;
+        double rediuse= (x+y)*2;
+        int space=x*y;
+        System.out.println("the  rediuse is: "+  rediuse + "\n" +
+                        "the  space is: "+  space );
+
+        //Exercise Number#5
+        System.out.println(" تمرين رقم 5");
+        int x1= 23;
+        int y2= 45;
+        boolean compare = x1 ==y2;
+        System.out.println("the  resulte is: "+ compare);
+        //Exercise Number#6
+        System.out.println("تمرين رقم 6");
+
+        System.out.println("the  resulte is:"+   Exercise6(55,77)); //call method 2
+        System.out.println("تمرين رقم 7");
+
+        System.out.println("the  resulte is:"+   Exercise7(55,77)); //call method 3
+
+    }
+    //method 1
+    public static int Additton(int x, int y){
+        int s = x+y;
+        return s/2;}
+    //method 2
+    public static boolean Exercise6 (int x, int y){
+        boolean s = x<50;  boolean r = x<y;
+        boolean h= s && r;
+        return h ;}
+    //method 3
+    public static boolean Exercise7 (int x, int y){
+        boolean s = x<50;  boolean r = x<y;
+        boolean h= s || r;
+        return h ;}
+}
