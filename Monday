@@ -1,0 +1,47 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        // Exercise #1
+//        System.out.println("Enter Your integer");
+//        Scanner input = new Scanner (System.in);
+//        int x = input.nextInt();
+//
+//        if (x % 2 == 0){
+//            System.out.println("even");
+//        }else {
+//            System.out.println("odd");
+//        }
+        // Exercise #2
+//        Scanner input = new Scanner (System.in);
+////        System.out.println("Enter Your Name");
+////        String x = input.nextLine();
+////        System.out.println("Enter NUM");
+////        int NUM = input.nextInt();
+////        System.out.println(x.charAt(NUM));
+
+        //Exercise #3
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter Your Name");
+        String x = input.nextLine();
+        System.out.println("Enter charecter");
+        String x1 = input.nextLine();
+        System.out.println(x.contains(x1));
+
+        //Exercise #4
+//        Scanner input = new Scanner (System.in);
+//        System.out.println("Enter Your number#1");
+//          int x = input.nextInt();
+//        System.out.println("Enter Your number#2");
+//        int x1 = input.nextInt();
+//        System.out.println("Enter Your number#3");
+//        int x2 = input.nextInt();
+//
+//        if (x > x1 && x > x2){
+//            System.out.println("largest namber =" + x);}
+//        else if (x1 > x && x1 > x2){
+//            System.out.println("largest namber =" + x1);}
+//            else { System.out.println("largest namber =" + x2);}
+//
+//        }
+//    }
+    }}
